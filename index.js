@@ -15,8 +15,10 @@ app.init = function(){
   server.init();
 
   //start the workers
-  workers.init();
+  //workers.init();
 };
+
+console.log("messages are being sent to the console");
 
 //execute
 app.init();
